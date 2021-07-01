@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Nuha-Fashion</title>
+
+		<!-- roboto & bebas neue font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+
+		<!-- fontawesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+		/>
+
+		<!-- bootstrap stylesheet cdn link -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+
+		<!-- custom css -->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<header class="header-bg">
+			<div class="container">
+				<!-- navbar -->
+				<nav class="navbar navbar-expand-lg navbar-light">
+					<a class="navbar-brand" href="#home">
+						<img src="images/icon/nuha-fashion.svg" alt="nuha fashion logo" />
+					</a>
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navbarNav"
+						aria-controls="navbarNav"
+						aria-expanded="false"
+						aria-label="Toggle navigation"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav ms-auto nuha-fashion-navbar-nav">
+							<li class="nav-item active">
+								<a class="nav-link" href="#home">Home </a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown-toggle"
+									href="#"
+									id="navbarDropdown"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Category
+								</a>
+								<ul
+									class="dropdown-menu nuha-fashion-dropdown-menu"
+									aria-labelledby="navbarDropdown"
+								>
+									<li>
+										<a class="dropdown-item" href="#jacket">Woman Jacket</a>
+									</li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item" href="#shoes">Casual Shoes</a>
+									</li>
+									<li><hr class="dropdown-divider" /></li>
+									<li>
+										<a class="dropdown-item" href="#backpack"
+											>Casual Backpack</a
+										>
+									</li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#about">About us</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="#contact">Contact us</a>
+							</li>
+						</ul>
+					</div>
+				</nav>
+
+				<!-- carousel slide -->
+				<section>
+					<div
+						style="min-height: 600px"
+						id="carouselExampleIndicators"
+						class="carousel slide"
+						data-bs-ride="carousel"
+					>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="0"
+								class="active carousel-indicator"
+								aria-current="true"
+								aria-label="Slide 1"
+							></button>
+							<button
+								class="carousel-indicator"
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="1"
+								aria-label="Slide 2"
+							></button>
+							<button
+								class="carousel-indicator"
+								type="button"
+								data-bs-target="#carouselExampleIndicators"
+								data-bs-slide-to="2"
+								aria-label="Slide 3"
+							></button>
+						</div>
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<div class="row d-flex align-items-center">
+									<div class="col-md-7">
+										<h1 class="text-uppercase bebas-neue-font fw-bold">
+											<span class="nuha-fashion-text-warning"
+												>Be the penguins</span
+											>
+											<br />
+											<span class="nuha-fashion-text-primary">of winter</span>
+										</h1>
+										<p class="nuha-fashion-text-secondary">
+											Lorem Ipsum is simply dummy text of the printing <br />
+											and typesetting industry.
+										</p>
+										<button
+											class="btn text-white text-uppercase px-3 py-2 main-btn"
+										>
+											<i class="fas fa-shopping-cart"></i>
+											<span class="ms-1">Buy now</span>
+										</button>
+									</div>
+									<div class="col-md-5">
+										<img
+											src="images/banner/banner_1.png"
+											class="d-block w-100"
+											alt="banner"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row d-flex align-items-center">
+									<div class="col-md-7">
+										<h1 class="text-uppercase bebas-neue-font fw-bold">
+											<span class="nuha-fashion-text-warning">Nike React</span>
+											<br />
+											<span class="nuha-fashion-text-primary"
+												>Infinity Run 2</span
+											>
+										</h1>
+										<p class="nuha-fashion-text-secondary">
+											Lorem Ipsum is simply dummy text of the printing <br />
+											and typesetting industry.
+										</p>
+										<button
+											class="btn text-white text-uppercase px-3 py-2 main-btn"
+										>
+											<i class="fas fa-shopping-cart"></i>
+											<span class="ms-1">Buy now</span>
+										</button>
+									</div>
+
+									<div class="col-md-5">
+										<img
+											src="images/banner/banner_2.png"
+											class="d-block w-100"
+											alt="banner"
+										/>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="row d-flex align-items-center">
+									<div class="col-md-7">
+										<h1 class="text-uppercase bebas-neue-font fw-bold">
+											<span class="nuha-fashion-text-warning">Backpack</span>
+											<br />
+											<span class="nuha-fashion-text-primary">Moon</span>
+										</h1>
+										<p class="nuha-fashion-text-secondary">
+											Lorem Ipsum is simply dummy text of the printing <br />
+											and typesetting industry.
+										</p>
+										<button
+											class="btn text-white text-uppercase px-3 py-2 main-btn"
+										>
+											<i class="fas fa-shopping-cart"></i>
+											<span class="ms-1">Buy now</span>
+										</button>
+									</div>
+
+									<div class="col-md-5">
+										<img
+											src="images/banner/banner_3.png"
+											class="d-block w-100"
+											alt="banner"
+										/>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</header>
+		<main>
+			<!-- jacket section -->
+			<section class="jacket-section container mt-5" id="jacket">
+				<h2
+					class="text-uppercase mb-5 bebas-neue-font nuha-fashion-text-primary"
+				>
+					Woman Jacket
+				</h2>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/women-jacket/jacket_1.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/women-jacket/jacket_2.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/women-jacket/jacket_3.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- shoes section -->
+			<section class="shoes-section container mt-5" id="shoes">
+				<h2
+					class="text-uppercase mb-5 bebas-neue-font nuha-fashion-text-primary"
+				>
+					Casual Shoes
+				</h2>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/shoes/shoe_1.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/shoes/shoe_2.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/shoes/shoe_3.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- backpack section -->
+			<section class="backpack-section mt-5 container" id="backpack">
+				<h2
+					class="text-uppercase mb-5 bebas-neue-font nuha-fashion-text-primary"
+				>
+					Casual Backpack
+				</h2>
+				<div class="row row-cols-1 row-cols-md-3 g-4">
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/backpack/backpack_1.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/backpack/backpack_2.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div
+							class="card h-100 nuha-fashion-card shadow p-3 border-0 bg-white"
+						>
+							<img
+								src="images/backpack/backpack_3.png"
+								class="card-img-top w-100"
+								alt="card image"
+							/>
+							<div class="card-body">
+								<h3 class="card-title fs-4 nuha-fashion-text-primary fw-bold">
+									Ladies Coat Jacket
+								</h3>
+								<p class="card-text nuha-fashion-text-secondary">
+									Lorem Ipsum is simply dummy text of the printing and
+									typesetting industry.
+								</p>
+							</div>
+							<div
+								class="
+									card-footer
+									nuha-fashion-card-footer
+									d-flex
+									justify-content-between
+									align-items-center
+								"
+							>
+								<h2 class="nuha-fashion-text-warning fw-bold">$236</h2>
+								<button
+									class="btn text-white text-uppercase px-3 py-2 main-btn"
+								>
+									<i class="fas fa-shopping-cart"></i>
+									<span class="ms-1">Buy now</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section
+				class="
+					container
+					my-5
+					py-5
+					d-flex
+					align-items-center
+					justify-content-between
+				"
+			>
+				<div class="row d-flex align-items-center justify-content-between">
+					<div class="col-md-5">
+						<div class="d-flex shadow nuha-fashion-services p-4 mb-4">
+							<img class="img-fluid me-5" src="images/icon/icon_1.png" />
+							<div>
+								<h3 class="fs-4 nuha-fashion-text-primary fw-bold">
+									Find the Perfect Fit
+								</h3>
+								<p class="nuha-fashion-text-secondary">
+									Everybody is different, which is why we <br />
+									offer styles for every body.
+								</p>
+							</div>
+						</div>
+						<div class="d-flex shadow nuha-fashion-services p-4 mb-4">
+							<img class="img-fluid me-5" src="images/icon/icon_2.png" />
+							<div>
+								<h3 class="fs-4 nuha-fashion-text-primary fw-bold">
+									Find the Perfect Fit
+								</h3>
+								<p class="nuha-fashion-text-secondary">
+									Everybody is different, which is why we <br />
+									offer styles for every body.
+								</p>
+							</div>
+						</div>
+						<div class="d-flex shadow nuha-fashion-services p-4 mb-4">
+							<img class="img-fluid me-5" src="images/icon/icon_3.png" />
+							<div>
+								<h3 class="fs-4 nuha-fashion-text-primary fw-bold">
+									Find the Perfect Fit
+								</h3>
+								<p class="nuha-fashion-text-secondary">
+									Everybody is different, which is why we <br />
+									offer styles for every body.
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-7">
+						<img
+							class="img-fluid d-block ps-5"
+							src="images/icon/icon_4.png"
+							alt="shoping info"
+						/>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7">
+						<h3 class="text-white mb-3" id="contact">Contact Us</h3>
+						<input
+							type="text"
+							class="form-control mb-3"
+							placeholder="Enter your name"
+						/>
+						<input
+							type="email"
+							class="form-control mb-3"
+							placeholder="Enter your email"
+						/>
+						<textarea
+							class="form-control mb-3"
+							placeholder="Enter your message"
+						></textarea>
+						<button
+							type="submit"
+							class="btn main-btn text-uppercase text-white px-3 py-2"
+						>
+							Sent Us
+						</button>
+					</div>
+					<div class="col-md-7">
+						<img src="images/icon/nuha-fashion.svg" alt="nuha fashion" />
+					</div>
+				</div>
+			</div>
+		</footer>
+		<!-- bootstrap js cdn link -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
